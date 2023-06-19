@@ -11,10 +11,10 @@ Baptisan.init({
         primaryKey:true
     },
     foto_ktp:{
-        type:DataTypes.STRING
+        type:DataTypes.BLOB('medium')
     },
     foto_pribadi:{
-        type:DataTypes.STRING
+        type:DataTypes.BLOB('medium')
     },
     nama:{
         type:DataTypes.STRING
