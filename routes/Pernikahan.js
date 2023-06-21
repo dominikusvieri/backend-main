@@ -17,12 +17,14 @@ router.post('/', async (req, res) => {
         tempat_lahir_pria,
         tanggal_lahir_pria,
         alamat_pria,
+        no_telepon_pria,
         kewarganegaraan_pria,
         kpk_wilayah_pria,
         nama_wanita,
         tempat_lahir_wanita,
         tanggal_lahir_wanita,
         alamat_wanita,
+        no_telepon_wanita,
         kewarganegaraan_wanita,
         kpk_wilayah_wanita
     } = req.body
@@ -32,12 +34,14 @@ router.post('/', async (req, res) => {
         tempat_lahir_pria,
         tanggal_lahir_pria,
         alamat_pria,
+        no_telepon_pria,
         kewarganegaraan_pria,
         kpk_wilayah_pria,
         nama_wanita,
         tempat_lahir_wanita,
         tanggal_lahir_wanita,
         alamat_wanita,
+        no_telepon_wanita,
         kewarganegaraan_wanita,
         kpk_wilayah_wanita
     })
