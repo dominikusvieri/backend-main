@@ -20,13 +20,15 @@ router.post('/', async (req, res) => {
         no_telepon_pria,
         kewarganegaraan_pria,
         kpk_wilayah_pria,
+        foto_ttd_pria,
         nama_wanita,
         tempat_lahir_wanita,
         tanggal_lahir_wanita,
         alamat_wanita,
         no_telepon_wanita,
         kewarganegaraan_wanita,
-        kpk_wilayah_wanita
+        kpk_wilayah_wanita,
+        foto_ttd_wanita
     } = req.body
 
     const pernikahan = await Pernikahan.create({
@@ -37,13 +39,15 @@ router.post('/', async (req, res) => {
         no_telepon_pria,
         kewarganegaraan_pria,
         kpk_wilayah_pria,
+        foto_ttd_pria,
         nama_wanita,
         tempat_lahir_wanita,
         tanggal_lahir_wanita,
         alamat_wanita,
         no_telepon_wanita,
         kewarganegaraan_wanita,
-        kpk_wilayah_wanita
+        kpk_wilayah_wanita,
+        foto_ttd_wanita
     })
 
     res.status(200).json({

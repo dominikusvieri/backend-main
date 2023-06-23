@@ -25,6 +25,9 @@ Pernikahan.init({
     kpk_wilayah_pria: {
         type: DataTypes.STRING
     },
+    foto_ttd_pria:{
+        type:DataTypes.TEXT
+    },
     nama_wanita: {
         type: DataTypes.STRING
     },
@@ -45,6 +48,9 @@ Pernikahan.init({
     },
     kpk_wilayah_wanita: {
         type: DataTypes.STRING
+    },
+    foto_ttd_wanita:{
+        type:DataTypes.TEXT
     },
 }, {
     sequelize,

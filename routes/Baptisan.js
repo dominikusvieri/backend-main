@@ -11,8 +11,8 @@ router.get('/', async (req, res) => {
     })
 })
 
-router.post('/', async(req, res)=>{
-    const { foto_ktp, foto_pribadi, nama, tempat_lahir, tanggal_lahir, alamat, nama_ibu, pendidikan, status_perkawinan, nama_ayah_or_wali, nama_ibu_or_wali, alamat_ortu_or_wali} = req.body
+router.post('/', async (req, res) => {
+    const { foto_ktp, foto_pribadi, nama, tempat_lahir, tanggal_lahir, alamat, nama_ibu, pendidikan, status_perkawinan, nama_ayah_or_wali, nama_ibu_or_wali, alamat_ortu_or_wali } = req.body
 
     const baptisan = await Baptisan.create({
         foto_ktp, foto_pribadi, nama, tempat_lahir, tanggal_lahir, alamat, nama_ibu, pendidikan, status_perkawinan, nama_ayah_or_wali, nama_ibu_or_wali, alamat_ortu_or_wali

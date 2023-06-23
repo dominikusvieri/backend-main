@@ -17,7 +17,7 @@ PenyerahanAnak.init({
         type:DataTypes.STRING
     },
     tanggal_lahir:{
-        type:DataTypes.DATEONLY
+        type:DataTypes.TEXT
     },
     alamat:{
         type:DataTypes.TEXT
